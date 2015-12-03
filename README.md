@@ -2,6 +2,9 @@
 
 Overlap multiple images and mask either of them to see the difference
 
+demo:
+http://nieuw.github.com/curtain-viewer
+
 ## Platform
 
 Web based curtain viewer which can be used locally, as well as nested inside a webpage. 
