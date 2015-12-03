@@ -13,6 +13,8 @@ Please use a "modern" web browser. basically any browser released by major vendo
 
 ## Usage
 
+Scroll page, horizontally and vertcally, to view up to 4 different images
+
 Basically add images to the webpage and open it in a browser. full description will be added later
 
 ## Troubles?
