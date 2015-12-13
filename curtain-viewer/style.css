@@ -22,7 +22,7 @@ body,html{
     .curtain-viewer section:nth-child(3){
         top:0;
         left:100%;
-        background: #ff0000; #rgba(255,255,255,.03);
+        background:rgba(255,255,255,.03);
     }
     .curtain-viewer section:nth-child(4){
         top:100%;
