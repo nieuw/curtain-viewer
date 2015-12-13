@@ -2,52 +2,14 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>curtain viewer</title>
-    <style>
-        body,html{
-            margin:0;
-            padding:0;
-            background:black;
-        }
-
-        .curtain-viewer section{
-            display:block;
-            position:absolute;
-            width:100%;
-            height:100%;
-            top:0;
-            left:0;
-            clip: rect(0, auto, auto, 0);
-        }
-        
-            .curtain-viewer section:nth-child(2){
-                top:100%;
-                background:rgba(255,255,255,.03);
-            }
-            .curtain-viewer section:nth-child(3){
-                top:0;
-                left:100%;
-                background:rgba(255,255,255,.03);
-            }
-            .curtain-viewer section:nth-child(4){
-                top:100%;
-                left:100%;
-            }
-
-        .curtain-viewer img{
-            position:fixed;
-            left: 50%;
-            top: 50%;
-            -ms-transform: translate(-50%, -50%);
-            -webkit-transform: translate(-50%, -50%);
-            transform: translate(-50%, -50%);
-        }
-    </style>
+    <link rel="stylesheet" href="curtain-viewer/style.css">
+    <title>Curtain Viewer</title>
 </head>
 <body>
     <main>
     <article class="curtain-viewer">
         <section>
+        <input type="file" />
             <img src="image/seal2.png" alt="Awkward seal" />
         </section>
         <section>
